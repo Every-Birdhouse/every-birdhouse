@@ -6,14 +6,25 @@
 
 .building {
   font-family: 'Roboto', sans-serif;
-  font-style: italic;
   font-weight: bold;
   font-size: xx-large;
 }
 
-.webImage {
+.videoContainer {
   display: flex;
   flex: 2;
+  flex-direction: column;
+}
+
+.video {
+  display: flex;
+  flex: 4;
+}
+
+.videoTextContainer {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
 }
 
 .linksContainer {

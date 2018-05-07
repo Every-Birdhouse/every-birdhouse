@@ -12,8 +12,19 @@ export default function Home() {
   return (
     <div className='home'>
       <Default>
-        <div className='webImage'>
-          <img src={AMD} alt='A Memory Drowned' className='imageContainer'/>
+        <div className='videoContainer'>
+          <div className='video'>
+            <iframe
+              src='https://player.vimeo.com/video/267392220?title=0&byline=0&portrait=0&badge=0'
+              frameborder='0'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
+            />
+          </div>
+          <div className='videoTextContainer'>
+            <h4>Recent work: A Memory Drowned</h4>
+          </div>
         </div>
         <div className='linksContainer'>
           <h1 className="building">
