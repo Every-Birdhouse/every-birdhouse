@@ -1,0 +1,32 @@
+.home {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.building {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.webImage {
+  display: flex;
+  flex: 2;
+}
+
+.linksContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.imageContainer {
+  height: 25px;
+  width: 25px;
+}
+
+Link {
+  color: red;
+}
