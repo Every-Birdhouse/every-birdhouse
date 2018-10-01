@@ -18,8 +18,6 @@ export default function Home() {
             frameBorder='0'
             height='750'
             width='750'
-            webkitallowfullscreen
-            mozallowfullscreen
             allowFullScreen
           />
         </div>
@@ -84,8 +82,6 @@ export default function Home() {
               frameBorder='0'
               height='500'
               width='500'
-              webkitallowfullscreen
-              mozallowfullscreen
               allowFullScreen
             />
           </Responsive>
@@ -94,8 +90,6 @@ export default function Home() {
               src='https://player.vimeo.com/video/289155044'
               title='A Memory Drowned Trailer'
               frameBorder='0'
-              webkitallowfullscreen
-              mozallowfullscreen
               allowFullScreen
             />
           </Responsive>
