@@ -67,7 +67,7 @@ export default function Home() {
               <i className='fab fa-instagram'></i>
             </a>
             <a href='https://www.facebook.com/arthur.j.carueso'>
-              <i className='fab fa-facebook-square socialMediaIcon'></i>
+              <i className='fab fa-facebook-square responsiveSocialMediaIcon'></i>
             </a>
             <a href='https://vimeo.com/everybirdhousemedia'>
               <i className='fab fa-vimeo-v'></i>
