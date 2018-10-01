@@ -5,11 +5,11 @@ body {
 }
 
 * {
-  cursor: url(Assets/cursor.ico), auto;
+  cursor: url(Assets/logo_cursor_black.ico), auto;
 }
 
 *:hover {
-  cursor: url(Assets/cursor.ico), auto;
+  cursor: url(Assets/logo_cursor_yellow.ico), auto;
 }
 
 a {
