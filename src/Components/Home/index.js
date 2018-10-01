@@ -83,6 +83,7 @@ export default function Home() {
               height='500'
               width='500'
               allowFullScreen
+              style={{ marginBottom: '70px'}}
             />
           </Responsive>
           <Responsive maxWidth={767}>
@@ -91,6 +92,7 @@ export default function Home() {
               title='A Memory Drowned Trailer'
               frameBorder='0'
               allowFullScreen
+              style={{ marginBottom: '70px'}}
             />
           </Responsive>
       </Mobile>
