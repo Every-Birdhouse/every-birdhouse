@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import React from 'react';
 import Responsive from 'react-responsive';
 
-import logo_yellow from '../../Assets/logo_yellow.svg';
-import logo_black from '../../Assets/logo_black.svg';
+import logo from '../../Assets/logo_yellow.svg';
 import './style.css';
 
-const Default = ({ children }) => <Responsive minWidth={768} className='webResponsiveContainer' children={children} />;
-const Mobile = ({ children }) => <Responsive maxWidth={768} className='responsiveContainer' children={children} />;
-
-let logo = logo_yellow; // default it to logo_yellow
+const Default = ({ children }) => <Responsive minWidth={992} className='webResponsiveContainer' children={children} />;
+const Mobile = ({ children }) => <Responsive maxWidth={991} className='responsiveContainer' children={children} />;
 
 export default function Home() {
   return (
@@ -22,8 +18,8 @@ export default function Home() {
             frameBorder='0'
             height='750'
             width='750'
-            webkitAllowFullScreen
-            mozAllowFullScreen
+            webkitallowfullscreen
+            mozallowfullscreen
             allowFullScreen
           />
         </div>
@@ -35,7 +31,7 @@ export default function Home() {
           />
           <div className='aboutContainer'>
             <p>
-              Every film a birdhouse, an invitation.<br/>
+              Every film, a birdhouse. An invitation.<br/>
               Director, Producer, Writer, Editor, and Colorist.<br/>
               Portland, OR.
             </p>
@@ -61,7 +57,7 @@ export default function Home() {
           />
           <div className='aboutContainer'>
             <p>
-              Every film a birdhouse, an invitation.<br/>
+              Every film, a birdhouse. An invitation.<br/>
               Director, Producer, Writer, Editor, and Colorist.<br/>
               Portland, OR.
             </p>
@@ -81,14 +77,28 @@ export default function Home() {
             NOW SHOWING
           </h4>
           <i className="far fa-long-arrow-alt-down arrowSpacing"></i>
-          <iframe
-            src='https://player.vimeo.com/video/289155044'
-            title='A Memory Drowned Trailer'
-            frameBorder='0'
-            webkitAllowFullScreen
-            mozAllowFullScreen
-            allowFullScreen
-          />
+          <Responsive minWidth={768} maxWidth={991}>
+            <iframe
+              src='https://player.vimeo.com/video/289155044'
+              title='A Memory Drowned Trailer'
+              frameBorder='0'
+              height='500'
+              width='500'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowFullScreen
+            />
+          </Responsive>
+          <Responsive maxWidth={767}>
+            <iframe
+              src='https://player.vimeo.com/video/289155044'
+              title='A Memory Drowned Trailer'
+              frameBorder='0'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowFullScreen
+            />
+          </Responsive>
       </Mobile>
     </div>
   );
