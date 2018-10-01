@@ -29,7 +29,7 @@ export default function Home() {
             alt='Every Birdhouse Media Logo'
             className='logoImg'
           />
-          <div className='aboutContainer'>
+          <div>
             <p>
               Every film, a birdhouse. An invitation.<br/>
               Director, Producer, Writer, Editor, and Colorist.<br/>
@@ -55,7 +55,7 @@ export default function Home() {
             alt='Every Birdhouse Media Logo'
             className='logoImg'
           />
-          <div className='aboutContainer'>
+          <div>
             <p>
               Every film, a birdhouse. An invitation.<br/>
               Director, Producer, Writer, Editor, and Colorist.<br/>
