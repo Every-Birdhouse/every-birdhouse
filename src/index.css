@@ -25,8 +25,16 @@ a:hover {
 
 .webResponsiveContainer {
   display: flex;
-  flex: 1;
+  flex: 1 1 auto;
   justify-content: flex-end;
   align-items: center;
   flex-direction: row;
+}
+
+.responsiveContainer {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
